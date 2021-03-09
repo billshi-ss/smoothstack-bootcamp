@@ -5,6 +5,7 @@ package com.ss.bootcamp.weekone;
 
 /**
  * Prints four patterns
+ * Week 1 day 1 (3/8/21) assignment
  * @author Bill Shi
  *
  */

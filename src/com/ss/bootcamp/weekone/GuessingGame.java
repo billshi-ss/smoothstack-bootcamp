@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 /**
  * Plays a guess game with the user
+ * Week 1 day 1 (3/8/21) assignment
  * @author Bill Shi
  *
  */
