@@ -15,6 +15,7 @@ import java.util.Scanner;
 public class GuessingGame {
 
 	/**
+	 * main function
 	 * @param args
 	 */
 	public static void main(String[] args) {
