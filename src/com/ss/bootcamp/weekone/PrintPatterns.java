@@ -5,7 +5,7 @@ package com.ss.bootcamp.weekone;
 
 /**
  * Prints four patterns
- * @author Bill-Smoothstack
+ * @author Bill Shi
  *
  */
 public class PrintPatterns {
