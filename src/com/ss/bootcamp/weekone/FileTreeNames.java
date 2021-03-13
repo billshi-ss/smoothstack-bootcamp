@@ -22,11 +22,11 @@ public class FileTreeNames {
 			System.out.println("Please provide the path to a folder (one argument only)");
 			System.exit(-1);
 		}
+			
+		File root = new File(args[0]);
 		
-		try {
-			
-			File root = new File(args[0]);
-			
+		if (root.exists()) {
+		
 			if (root.isFile()) {
 				System.out.println("The given path is a file, please provide the path to a folder");
 				System.exit(-1);
@@ -36,7 +36,7 @@ public class FileTreeNames {
 			printAll.exploreFileTree(root);
 			
 			
-		} catch (NullPointerException e) {
+		} else {
 			System.out.println("The file specified by the path is not found");
 			System.exit(-1);
 		}
