@@ -4,6 +4,8 @@
 package com.ss.bootcamp.weekone;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
@@ -50,11 +52,11 @@ public class LineTest {
 	
 	@Test
 	public void parallelTest() {
-		assertEquals(true, line1.parallelTo(line2));
+		assertTrue(line1.parallelTo(line2));
 	}
 	
 	@Test
 	public void notParallelTest() {
-		assertEquals(false, line1.parallelTo(line3));
+		assertFalse(line1.parallelTo(line3));
 	}
 }
