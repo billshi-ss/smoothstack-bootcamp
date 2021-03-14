@@ -10,8 +10,9 @@ import static org.junit.Assert.assertTrue;
 import org.junit.jupiter.api.Test;
 
 /**
- * WIP unit test assignment
+ * Unit tests testing methods in Line.java
  * @author Bill Shi
+ * week one day four (3/11/21) assignment
  *
  */
 public class LineTest {
