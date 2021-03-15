@@ -21,7 +21,8 @@ public class DoubleCheckedSingleton {
 		if (instance == null) {
 			synchronized (instance) {
 				if (instance == null) {
-					return new DoubleCheckedSingleton();
+					instance = new DoubleCheckedSingleton();
+					return instance;
 				} else {
 					return instance;
 				}
