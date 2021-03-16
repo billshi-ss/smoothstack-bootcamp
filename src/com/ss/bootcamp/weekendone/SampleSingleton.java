@@ -29,6 +29,8 @@ public class SampleSingleton {
 	
 	public static SampleSingleton getInstance() {
 		if (instance == null) {
+				//Doesn't work, cannot use a null variable in a synchronize
+				//block
 				synchronized (instance) {
 				if (instance == null) {
 					return new SampleSingleton();
